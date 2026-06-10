@@ -1,0 +1,7 @@
+workflow-aggregator
+git
+credentials-binding
+docker-workflow
+blueocean
+pipeline-stage-view
+warnings-ng

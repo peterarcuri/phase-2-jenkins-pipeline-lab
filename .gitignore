@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+jenkins_home/
+sample-output/*.log
+.env
