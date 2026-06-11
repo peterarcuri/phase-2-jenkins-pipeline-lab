@@ -208,87 +208,86 @@ including:
 
 ---
 
-## Screenshots
+# Screenshots
 
-### Project Structure
+## Project Structure
 
-Shows the repository layout used for the Jenkins pipeline lab.
+Shows the overall repository layout including the application source code, Jenkins configuration, pipeline definition, documentation, scripts, tests, and supporting files.
 
-```markdown
 ![Project Structure](screenshots/project-structure-jenkins.png)
-```
 
-### Jenkins Dashboard
+---
 
-Displays the Jenkins instance with the pipeline project configured.
+## Jenkins Dashboard
 
-```markdown
+Displays the Jenkins dashboard with the `phase-2-jenkins-pipeline-lab` pipeline project configured and available for execution.
+
 ![Jenkins Dashboard](screenshots/jenkins-dashboard.png)
-```
 
-### Pipeline Job Page & Stage View
+---
 
-Illustrates successful pipeline execution and stage visualization.
+## Pipeline Job Page & Stage View
 
-```markdown
+Shows the Jenkins pipeline job page, including build history and successful execution of the configured pipeline stages.
+
 ![Pipeline Job & Stage View](screenshots/pipeline-job-page-and-stage-view.png)
-```
 
-### Pytest Console Output
+---
 
-Shows successful automated test execution.
+## Successful Pytest Execution
 
-```markdown
-![Pytest Output](screenshots/pytest-console-output-jenkins.png)
-```
+Demonstrates successful execution of the automated unit test suite during the Jenkins pipeline.
 
-### Ruff Console Output
+![Pytest Console Output](screenshots/pytest-console-output-jenkins.png)
 
-Shows successful linting using Ruff.
+---
 
-```markdown
-![Ruff Output](screenshots/ruff-console-output-jenkins.png)
-```
+## Ruff Code Quality Validation
 
-### Security Scan Console Output
+Shows Ruff successfully validating code quality and style standards before the build proceeds.
 
-Displays the Bandit and dependency security scanning stage.
+![Ruff Console Output](screenshots/ruff-console-output-jenkins.png)
 
-```markdown
-![Security Scan](screenshots/security-scan-console-output-jenkins.png)
-```
+---
 
-### Docker Build Console Output
+## Security Scan Execution
 
-Shows the Docker image build initiated by the Jenkins pipeline.
+Demonstrates automated security scanning using Bandit and `pip-audit` to identify insecure coding practices and vulnerable dependencies.
 
-```markdown
-![Docker Build](screenshots/docker-build-console-output-jenkins.png)
-```
+![Security Scan Console Output](screenshots/security-scan-console-output-jenkins.png)
 
-### Docker Build Success
+---
 
-Confirms successful completion of the Docker image build.
+## Docker Image Build
 
-```markdown
+Shows the Jenkins pipeline building the application Docker image from the project's `Dockerfile`.
+
+![Docker Build Console Output](screenshots/docker-build-console-output-jenkins.png)
+
+---
+
+## Successful Docker Build Completion
+
+Demonstrates successful completion of the Docker image build and image export process.
+
 ![Docker Build Success](screenshots/docker-build-success-console-output-jenkins.png)
-```
 
-### Jenkins Credential Binding
+---
 
-Demonstrates secure credential handling. Secret values have been redacted.
+## Jenkins Credential Binding
 
-```markdown
-![Credential Binding](screenshots/jenkins-credential-binding.png)
-```
+Shows secure credential management using Jenkins Credentials Binding, ensuring sensitive values remain external to source control.
 
-### Deploy Simulation Output
+![Jenkins Credential Binding](screenshots/jenkins-credential-binding.png)
 
-Shows successful execution of the deployment simulation stage.
+---
 
-```markdown
-![Deploy Simulation](screenshots/deploy-simulation-output-jenkins.png)
-```
+## Deployment Simulation
+
+Demonstrates successful execution of the simulated deployment stage after all quality and security gates have passed.
+
+![Deploy Simulation Output](screenshots/deploy-simulation-output-jenkins.png)
+
 
 ---
 
