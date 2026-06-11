@@ -1,0 +1,13 @@
+$ docker build -t phase-2-jenkins-app .
+
+#1 [internal] load build definition from Dockerfile
+#2 [internal] load metadata for python:3.13-slim
+#3 [internal] load build context
+#4 WORKDIR /app
+#5 COPY app/ app/
+#6 RUN useradd -m appuser
+
+Successfully built image:
+phase-2-jenkins-app
+
+Docker image build completed successfully.
