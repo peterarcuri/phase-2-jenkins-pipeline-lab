@@ -208,104 +208,86 @@ including:
 
 ---
 
-# Screenshots
+## Screenshots
 
-## Project Structure
+### Project Structure
 
 Shows the repository layout used for the Jenkins pipeline lab.
 
-```text
-screenshots/project-structure-jenkins.png
+```markdown
+![Project Structure](screenshots/project-structure-jenkins.png)
 ```
 
----
-
-## Jenkins Dashboard
+### Jenkins Dashboard
 
 Displays the Jenkins instance with the pipeline project configured.
 
-```text
-screenshots/jenkins-dashboard.png
+```markdown
+![Jenkins Dashboard](screenshots/jenkins-dashboard.png)
 ```
 
----
-
-## Pipeline Job Page & Stage View
+### Pipeline Job Page & Stage View
 
 Illustrates successful pipeline execution and stage visualization.
 
-```text
-screenshots/pipeline-job-page-and-stage-view.png
+```markdown
+![Pipeline Job & Stage View](screenshots/pipeline-job-page-and-stage-view.png)
 ```
 
----
+### Pytest Console Output
 
-## Pytest Console Output
+Shows successful automated test execution.
 
-Demonstrates successful automated test execution.
-
-```text
-screenshots/pytest-console-output-jenkins.png
+```markdown
+![Pytest Output](screenshots/pytest-console-output-jenkins.png)
 ```
 
----
+### Ruff Console Output
 
-## Ruff Console Output
+Shows successful linting using Ruff.
 
-Shows successful static code analysis using Ruff.
-
-```text
-screenshots/ruff-console-output-jenkins.png
+```markdown
+![Ruff Output](screenshots/ruff-console-output-jenkins.png)
 ```
 
----
+### Security Scan Console Output
 
-## Security Scan Console Output
+Displays the Bandit and dependency security scanning stage.
 
-Displays successful execution of Bandit and dependency security scanning.
-
-```text
-screenshots/security-scan-console-output-jenkins.png
+```markdown
+![Security Scan](screenshots/security-scan-console-output-jenkins.png)
 ```
 
----
+### Docker Build Console Output
 
-## Docker Build Console Output
+Shows the Docker image build initiated by the Jenkins pipeline.
 
-Shows the Docker image being built by the Jenkins pipeline.
-
-```text
-screenshots/docker-build-console-output-jenkins.png
+```markdown
+![Docker Build](screenshots/docker-build-console-output-jenkins.png)
 ```
 
----
+### Docker Build Success
 
-## Docker Build Success
+Confirms successful completion of the Docker image build.
 
-Confirms successful completion of the container build.
-
-```text
-screenshots/docker-build-success-console-output-jenkins.png
+```markdown
+![Docker Build Success](screenshots/docker-build-success-console-output-jenkins.png)
 ```
 
----
+### Jenkins Credential Binding
 
-## Jenkins Credential Binding
+Demonstrates secure credential handling. Secret values have been redacted.
 
-Demonstrates secure credential usage within Jenkins (with secret values hidden).
-
-```text
-screenshots/jenkins-credential-binding.png
+```markdown
+![Credential Binding](screenshots/jenkins-credential-binding.png)
 ```
 
----
+### Deploy Simulation Output
 
-## Deploy Simulation Output
+Shows successful execution of the deployment simulation stage.
 
-Shows the successful execution of the deployment simulation stage.
-
-```text
-screenshots/deploy-simulation-output-jenkins.png
+```markdown
+![Deploy Simulation](screenshots/deploy-simulation-output-jenkins.png)
 ```
 
 ---
